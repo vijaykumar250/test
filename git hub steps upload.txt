@@ -1,0 +1,64 @@
+
+TechPC@DESKTOP-U2PLGJ8 MINGW64 /e/ArtificialIntelligence&MachineLearning/MachineLearning/DAY2 Programs (master)
+$ git init
+Reinitialized existing Git repository in E:/ArtificialIntelligence&MachineLearning/MachineLearning/DAY2 Programs/.git/
+
+TechPC@DESKTOP-U2PLGJ8 MINGW64 /e/ArtificialIntelligence&MachineLearning/MachineLearning/DAY2 Programs (master)
+$ git add *
+\error: open("~$sampledata.xlsx"): Permission denied
+error: unable to index file ~$sampledata.xlsx
+fatal: adding files failed
+
+TechPC@DESKTOP-U2PLGJ8 MINGW64 /e/ArtificialIntelligence&MachineLearning/MachineLearning/DAY2 Programs (master)
+$ git add *
+error: open("~$sampledata.xlsx"): Permission denied
+error: unable to index file ~$sampledata.xlsx
+fatal: adding files failed
+
+TechPC@DESKTOP-U2PLGJ8 MINGW64 /e/ArtificialIntelligence&MachineLearning/MachineLearning/DAY2 Programs (master)
+$ git add Test.py
+
+TechPC@DESKTOP-U2PLGJ8 MINGW64 /e/ArtificialIntelligence&MachineLearning/MachineLearning/DAY2 Programs (master)
+$ git commit -m "firsttttt"
+
+*** Please tell me who you are.
+
+Rungit commit
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'TechPC@DESKTOP-U2PLGJ8.(none)')
+
+TechPC@DESKTOP-U2PLGJ8 MINGW64 /e/ArtificialIntelligence&MachineLearning/MachineLearning/DAY2 Programs (master)
+$ git config --global user.email "tvijaykumar960@gmail.com"
+
+TechPC@DESKTOP-U2PLGJ8 MINGW64 /e/ArtificialIntelligence&MachineLearning/MachineLearning/DAY2 Programs (master)
+$ git config --global user.name "vijaykumar"
+
+TechPC@DESKTOP-U2PLGJ8 MINGW64 /e/ArtificialIntelligence&MachineLearning/MachineLearning/DAY2 Programs (master)
+$ git commit -m "firsttttt"
+[master (root-commit) 83c70c0] firsttttt
+ 2 files changed, 46 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 Test.py
+
+TechPC@DESKTOP-U2PLGJ8 MINGW64 /e/ArtificialIntelligence&MachineLearning/MachineLearning/DAY2 Programs (master)
+$ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 806 bytes | 403.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/vijaykumar250/Final_rmse_r2_mse.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+TechPC@DESKTOP-U2PLGJ8 MINGW64 /e/ArtificialIntelligence&MachineLearning/MachineLearning/DAY2 Programs (master)
+$ ^C
+
+TechPC@DESKTOP-U2PLGJ8 MINGW64 /e/ArtificialIntelligence&MachineLearning/MachineLearning/DAY2 Programs (master)
+$
